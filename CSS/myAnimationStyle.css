@@ -36,13 +36,13 @@ footer {
 @keyframes myAnimateDiv1{
   0% {transform: rotate(0deg);left:-300px;}
    10% {transform: rotate(0deg);left:0px;}
-   20% {transform: rotate(0deg);left:250px;background: #d3ace0}
-   30% {transform: rotate(0deg);left:500px;}
-   40% {transform: rotate(0deg);left:750px;}
-   50% {transform: rotate(0deg);left:1000px;background: #3a74de;}
-   60% {transform: rotate(0deg);left:750px;}
-   70% {transform: rotate(0deg);left:500px;background:#b79bd2;}
-   80% {transform: rotate(0deg);left:250px;}
+   20% {transform: rotate(0deg);left:500px;background: #d3ace0}
+   30% {transform: rotate(0deg);left:700px;}
+   40% {transform: rotate(0deg);left:900px;}
+   50% {transform: rotate(0deg);left:1500px;background: #3a74de;}
+   60% {transform: rotate(0deg);left:900px;}
+   70% {transform: rotate(0deg);left:700px;background:#b79bd2;}
+   80% {transform: rotate(0deg);left:500px;}
    90% {transform: rotate(0deg);left:100px;background:#e2539c;}
   100% {transform: rotate(0deg);left:-400px;}
 }
@@ -67,7 +67,7 @@ footer {
    40% {transform: scale(1.5,1.5);left:300px;}
    46% {transform: scale(1.5,1.5);}
    50% {transform: rotate(20deg);}
-   55% {transform: rotate(0deg);left:950px;}
+   55% {transform: rotate(0deg);left:1000px;}
    60% {transform: rotate(350deg);left:900px;}
    65% {transform: rotate(360deg);left:700px;}
    70% {transform: scale(1.5,1.5);rotate(-90deg)}
