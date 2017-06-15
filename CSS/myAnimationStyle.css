@@ -62,7 +62,7 @@ footer {
   0% {transform: rotate(10deg);left:-300px;}
    10% {transform: rotate(10deg);left:150px;}
    15% {transform: rotate(0deg);}
-   20% {transform: rotate(0deg);}
+   20% {transform: rotate(20deg);}
    30% {transform: rotate(20deg);left:500px;}
    40% {transform: scale(1.5,1.5);left:300px;}
    46% {transform: scale(1.5,1.5);}
@@ -76,7 +76,7 @@ footer {
    85% {transform: rotate(0deg);left:700px;}
    90% {transform: rotate(180deg);left:500px;}
    93% {transform: rotate(-180deg);left:400px;}
-   95% {transform: rotate(-20deg);left:200px;}
+   95% {transform: rotate(-180deg);left:200px;}
   100% {transform: rotate(0deg);left:-600px;}
 }
 
