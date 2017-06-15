@@ -50,6 +50,7 @@ footer {
    80% {transform: rotate(360deg);left:900px;background:#b79bd2;}
    85% {transform: rotate(340deg);left:900px;}
    90% {transform: rotate(180deg);left:300px;background:#e2539c;}
+   93% {transform: rotate(-180deg);left:300px;}
    95% {transform: rotate(-20deg);left:300px;}
   100% {transform: rotate(0deg);left:-200px;}
 }
