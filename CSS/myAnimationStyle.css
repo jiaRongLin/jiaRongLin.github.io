@@ -42,9 +42,10 @@ footer {
    40% {transform: scale(2,2);}
    46% {transform: scale(1.5,1.5);right:300px;}
    50% {transform: rotate(20deg);left:300px;}
-   60% {transform: rotate(360deg);left:900px;background: #3a74de;}
-   65% {transform: rotate(350deg);left:700px;}
-   70% {transform: rotate(360deg);left:600px;}
+   55% {transform: rotate(360deg);left:900px;background: #3a74de;}
+   60% {transform: rotate(350deg);left:700px;}
+   65% {transform: rotate(360deg);left:600px;}
+   70% {transform: scale(2,2);}
    75% {transform: rotate(370deg);left:700px;}
    80% {transform: rotate(360deg);left:900px;background:#b79bd2;}
    85% {transform: rotate(340deg);left:900px;}
