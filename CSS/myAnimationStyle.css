@@ -19,7 +19,7 @@ footer {
     clear: both;
 }
 
-#animateDiv {
+#animateDiv1 {
     width: 250px;
     background: #ff95da;
     color: #f47203;
@@ -30,10 +30,10 @@ footer {
     margin: 20px 0px;
     border-radius: 40px;
     position: relative;
-    animation: myAnimateDiv 20s infinite;
+    animation: myAnimateDiv1 20s infinite;
 }
 
-@keyframes myAnimateDiv{
+@keyframes myAnimateDiv1{
   0% {transform: rotate(10deg);left:-200px;}
    10% {transform: rotat(10deg);left:150px;}
    15% {transform: rotate(0deg);}
@@ -50,6 +50,39 @@ footer {
    80% {transform: rotate(360deg);left:900px;background:#b79bd2;}
    85% {transform: rotate(340deg);left:900px;}
    90% {transform: rotate(180deg);left:300px;background:#e2539c;}
+   93% {transform: rotate(-180deg);left:300px;}
+   95% {transform: rotate(-20deg);left:300px;}
+  100% {transform: rotate(0deg);left:-200px;}
+}
+
+#animateDiv {
+    width: 250px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    float: left;
+    margin: 20px 0px;
+    position: relative;
+    animation: myAnimateDiv 20s infinite;
+}
+
+@keyframes myAnimateDiv{
+  0% {transform: rotate(10deg);left:-200px;}
+   10% {transform: rotat(10deg);left:150px;}
+   15% {transform: rotate(0deg);}
+   20% {transform: rotate(0deg);}
+   30% {transform: rotate(20deg);left:500px;}
+   40% {transform: scale(2,2);}
+   46% {transform: scale(1.5,1.5);right:300px;}
+   50% {transform: rotate(20deg);}
+   55% {transform: rotate(360deg);left:900px;}
+   60% {transform: rotate(350deg);left:700px;}
+   65% {transform: rotate(360deg);left:600px;}
+   70% {transform: scale(2,2);}
+   75% {transform: rotate(370deg);left:700px;}
+   80% {transform: rotate(360deg);left:900px;}
+   85% {transform: rotate(340deg);left:900px;}
+   90% {transform: rotate(180deg);left:300px;}
    93% {transform: rotate(-180deg);left:300px;}
    95% {transform: rotate(-20deg);left:300px;}
   100% {transform: rotate(0deg);left:-200px;}
