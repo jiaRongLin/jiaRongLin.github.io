@@ -23,14 +23,14 @@ footer {
     width: 250px;
     background: #ff95da;
     color: #f47203;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     padding: 10px;
     float: left;
     margin: 20px 0px;
-    border-radius: 8px;
+    border-radius: 40px;
     position: relative;
-    animation: myAnimateDiv 11s infinite;
+    animation: myAnimateDiv 20s infinite;
 }
 
 @keyframes myAnimateDiv{
